@@ -15,9 +15,9 @@
   cancel=this.cancel
   run=this.run
 
-  Pending=(component "await/state" if=this.isPending)
-  Fulfilled=(component "await/state" if=this.isFulfilled value=this.data)
-  Rejected=(component "await/state" if=this.isRejected value=this.error)
-  Settled=(component "await/state" if=this.isSettled)
-  Initial=(component "await/state" if=this.isInitial)
+  Pending=(component "await/state" isRendered=this.isPending)
+  Fulfilled=(component "await/state" isRendered=this.isFulfilled value=this.data)
+  Rejected=(component "await/state" isRendered=this.isRejected value=this.error)
+  Settled=(component "await/state" isRendered=this.isSettled)
+  Initial=(component "await/state" isRendered=this.isInitial)
 )}}
