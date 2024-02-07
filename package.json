@@ -28,7 +28,7 @@
     "ember-cli-htmlbars": "^4.2.3",
     "@glimmer/component": "^1.0.0",
     "@glimmer/tracking": "^1.0.0",
-    "ember-concurrency": "^1.1.7",
+    "ember-concurrency": "^4.0.0",
     "ember-concurrency-decorators": "^1.0.0"
   },
   "devDependencies": {
